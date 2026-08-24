@@ -1,3 +1,0 @@
-import type {Metadata} from "next";import "./globals.css";
-export const metadata:Metadata={title:"tempMail Disposable Inbox",description:"Create one browser-local temporary inbox that self-destructs after ten minutes.",openGraph:{title:"tempMail Disposable Inbox",description:"A disposable inbox for the next 10 minutes.",images:["/og.png"]},twitter:{card:"summary_large_image",title:"tempMail Disposable Inbox",description:"A disposable inbox for the next 10 minutes.",images:["/og.png"]}};
-export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body>{children}</body></html>}
